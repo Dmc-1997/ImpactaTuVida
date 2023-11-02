@@ -1,0 +1,573 @@
+nav ul {
+  font-size: 20px;
+  display: flex;
+  gap: 6px;
+}
+.nav-item.active a {
+  color: black;
+  border-bottom: 3px solid #afdb00;
+}
+@media only screen and (max-width: 480px) {
+  .style-nav {
+    color: black;
+    text-decoration: none;
+    padding: 1px;
+    font-size: 11px;
+ }
+  .style-nav:hover {
+    border-bottom: #afdb00;
+    color: black;
+ }
+  .container-pricipal-search {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+ }
+  .container-anadir-usuario {
+    border-color: #c3c3c3;
+    border-radius: 20px;
+    border-style: dashed;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    flex-direction: column-reverse;
+    justify-content: center;
+    font-size: 10px;
+    width: 15%;
+    gap: 5px;
+    height: 70px;
+    color: #fff;
+ }
+  .styles-anadir {
+    color: #c3c3c3;
+    font-weight: 600;
+ }
+  .container-ul {
+    display: flex;
+    flex-direction: row;
+ }
+  .container-btn-next {
+    display: flex;
+    margin-top: 20px;
+    justify-content: center;
+ }
+  .container-styles-nextPage {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #7929e2;
+    border-radius: 6px;
+    font-weight: bold;
+    cursor: pointer;
+    height: 45px;
+    width: 230px;
+ }
+  .container-styles-nextPage:hover {
+    color: white;
+    background-color: #6f27cd;
+ }
+  .icon-arrow {
+    height: 25px;
+ }
+  .container-menu {
+    display: flex;
+ }
+  .container-menu ul {
+    display: flex;
+    gap: 2px;
+    flex-direction: row;
+    justify-content: center;
+ }
+}
+@media only screen and (min-width: 481px) and (max-width: 1000px) {
+  .style-nav {
+    color: black;
+    text-decoration: none;
+    padding: 5px 10px;
+    margin-left: 2px;
+    margin-right: 2px;
+    font-size: 12px;
+ }
+  .style-nav:hover {
+    border-bottom: #afdb00;
+    color: black;
+ }
+  .container-pricipal-search {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+ }
+  .icon-search {
+    margin-left: 5px;
+    height: 25px;
+ }
+  .input-search {
+    border: none;
+    margin-right: 5px;
+    font-size: 12px;
+    color: #333;
+    background-color: #eee;
+    padding: 5px;
+    border-radius: 3px;
+ }
+  .container-anadir-usuario {
+    border-color: #c3c3c3;
+    border-radius: 20px;
+    border-style: dashed;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    font-size: 15px;
+    width: 15%;
+    gap: 5px;
+    height: 70px;
+    color: #fff;
+ }
+  .styles-anadir {
+    color: #c3c3c3;
+    font-weight: 600;
+ }
+  .icon-menu-style {
+    height: 10px;
+ }
+  .container-menu {
+    display: flex;
+    justify-content: center;
+ }
+  .container-menu ul {
+    display: flex;
+    gap: 2px;
+    flex-direction: row;
+    justify-content: center;
+ }
+  .icon-anadir-user {
+    height: 20px;
+ }
+  .container-vacio {
+    display: none;
+ }
+  .container-btn-next {
+    display: flex;
+    margin-top: 20px;
+    justify-content: flex-end;
+ }
+  .container-styles-nextPage {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #7929e2;
+    border-radius: 6px;
+    cursor: pointer;
+    height: 45px;
+    width: 230px;
+ }
+  .container-styles-nextPage:hover {
+    color: white;
+    background-color: #6f27cd;
+ }
+  .icon-arrow {
+    height: 25px;
+ }
+}
+@media only screen and (min-width: 1000px) {
+  .style-nav {
+    color: black;
+    text-decoration: none;
+    padding: 5px 10px;
+    margin-left: 2px;
+    margin-right: 2px;
+    font-size: 15px;
+ }
+  .style-nav:hover {
+    border-bottom: #afdb00;
+    color: black;
+ }
+  .container-pricipal-search {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+ }
+  .icon-search {
+    margin-left: 5px;
+    height: 25px;
+ }
+  .input-search {
+    border: none;
+    margin-right: 5px;
+    font-size: 12px;
+    color: #333;
+    background-color: #eee;
+    padding: 5px;
+    border-radius: 3px;
+ }
+  .container-anadir-usuario {
+    border-color: #c3c3c3;
+    border-radius: 20px;
+    border-style: dashed;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    font-size: 15px;
+    width: 15%;
+    gap: 5px;
+    height: 70px;
+    color: #fff;
+ }
+  .styles-anadir {
+    color: #c3c3c3;
+ }
+  .icon-menu-style {
+    height: 10px;
+ }
+  .container-menu {
+    display: flex;
+    justify-content: center;
+ }
+  .container-menu ul {
+    display: flex;
+    gap: 2px;
+    flex-direction: row;
+    justify-content: center;
+ }
+  .icon-anadir-user {
+    height: 20px;
+ }
+  .container-btn-next {
+    display: flex;
+    margin-top: 20px;
+    justify-content: flex-end;
+ }
+  .container-styles-nextPage {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #7929e2;
+    border-radius: 6px;
+    cursor: pointer;
+    height: 45px;
+    width: 230px;
+ }
+  .container-styles-nextPage:hover {
+    color: white;
+    background-color: #6f27cd;
+ }
+  .icon-arrow {
+    height: 25px;
+ }
+  .styles-background-categories {
+    height: 230px;
+    border-radius: 10px;
+    background-color: #f9fafb;
+    box-shadow: 0px 1px 4px 3px #000;
+ }
+}
+
+
+/**
+    card profile
+*/
+
+.btn-style {
+    justify-content: center;
+}
+@media only screen and (max-width: 480px) {
+    .container-card {
+        display: flex;
+        justify-content: center;
+   }
+    .imgProfile {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 13px;
+   }
+    .cardInfo {
+        font-size: 12px;
+        padding: 0;
+        font-weight: 400;
+   }
+    .container-img-user {
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+        padding: 4px;
+   }
+    .styles-name {
+        font-size: 15px;
+        font-weight: 600;
+   }
+    .infoWrap {
+        margin-top: 15px;
+   }
+    .container-data-users {
+        display: flex;
+        gap: 3px;
+        align-items: center;
+   }
+    .img-perfil-style {
+        border-radius: 100%;
+        height: 90px;
+        width: 90px;
+        border: 3px solid #abc821;
+   }
+    .style-span {
+        display: block;
+        font-size: 10px;
+        text-align: justify;
+   }
+    .wrapTime {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 5px;
+        font-weight: 600;
+   }
+    .style-tiempo-acomulado {
+        background-color: #7929e2;
+        border-radius: 0px 0px 10px 10px;
+        justify-content: center;
+        padding: 5px 0;
+        color: #fff;
+   }
+    .container-card-web {
+        display: none !important;
+   }
+    .styles-mobile-card {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+   }
+    .container-card-mobile {
+        display: flex;
+        flex-direction: row;
+        font-size: 10px;
+        width: 100%;
+        max-width: 100%;
+   }
+    .style-line {
+        border-right: 1px solid #fff;
+        align-items: center;
+        padding: 1px;
+   }
+    .container-element-footer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 35px;
+        padding: 5px;
+   }
+    .container-courses {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+   }
+    .style-tiempo {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 2px;
+        height: 30px;
+        padding: 2px;
+   }
+    .styles-span-footer {
+        margin-right: 8px;
+   }
+}
+@media only screen and (min-width: 481px) and (max-width: 1000px) {
+    .container-card {
+        display: flex;
+        justify-content: center;
+   }
+   .container-data-users{
+    display: flex;
+    gap: 3px;
+    align-items: center;
+  }
+    .imgProfile {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 13px;
+   }
+    .cardInfo {
+        font-size: 12px;
+        width: 50%;
+   }
+    .container-img-user {
+        display: flex;
+        justify-content: center;
+        gap: 10px;
+        padding: 3px;
+   }
+    .styles-mobile-card {
+        display: flex;
+        gap: 10px;
+        font-weight: 600;
+        justify-content: center;
+   }
+    .styles-name {
+        font-size: 15px;
+        font-weight: 600;
+   }
+    .infoWrap {
+        margin-top: 15px;
+   }
+    .img-perfil-style {
+        border-radius: 100%;
+        height: 80px;
+        width: 80px;
+        border: 3px solid #abc821;
+   }
+    .wrapTime {
+        display: flex;
+        align-items: center;
+        font-weight: 600;
+        padding: 5px;
+   }
+    .style-tiempo-acomulado {
+        background-color: #7929e2;
+        border-radius: 0px 0px 10px 10px;
+        justify-content: center;
+        padding: 5px 0;
+        color: #fff;
+   }
+    .container-card-mobile {
+        font-size: 10px;
+        width: 100%;
+        max-width: 100%;
+   }
+    .style-line {
+        border-right: 1px solid #fff;
+        align-items: center;
+        padding: 1px;
+   }
+    .container-element-footer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 35px;
+        padding: 5px;
+   }
+    .container-courses {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+   }
+    .style-tiempo {
+        display: flex;
+        gap: 2px;
+        align-items: center;
+   }
+    .style-span {
+        display: block;
+        font-size: 10px;
+        margin-top: 5px;
+        text-align: justify;
+   }
+    .styles-span-footer {
+        margin-right: 8px;
+   }
+}
+@media only screen and (min-width: 1000px) {
+    .container-data-users{
+        display: flex;
+        gap: 3px;
+        align-items: center;
+      }
+    .container-img-user {
+        display: flex;
+        justify-content: center;
+        gap: 40px;
+        padding: 3px;
+   }
+    .imgProfile {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+   }
+    .img-perfil-style {
+        border-radius: 100%;
+        height: 90px;
+        width: 90px;
+        border: 3px solid #abc821;
+   }
+    .infoWrap {
+        margin-top: 15px;
+   }
+    .styles-name {
+        font-size: 15px;
+        font-weight: 600;
+   }
+    .textEllipsis {
+        text-overflow: ellipsis;
+        max-width: 120px;
+        overflow: hidden;
+        display: block;
+        white-space: nowrap;
+   }
+    .style-span {
+        display: block;
+        font-size: 12px;
+        margin-top: 5px;
+        text-align: justify;
+   }
+    .cardInfo {
+        font-size: 12px;
+        padding: 0;
+        font-weight: 500;
+        width: 50%;
+   }
+    .style-tiempo-acomulado {
+        background-color: #7929e2;
+        border-radius: 0px 0px 10px 10px;
+        justify-content: center;
+        padding: 5px 0;
+        color: #fff;
+   }
+    .wrapTime {
+        display: flex;
+        align-items: center;
+        gap: 2px;
+        padding: 10px;
+        font-weight: 600;
+   }
+    .container-card-mobile {
+        font-size: 12px;
+        width: 100%;
+        max-width: 100%;
+   }
+    .style-line {
+        border-right: 1px solid #fff;
+        align-items: center;
+        padding: 1px;
+   }
+    .container-element-footer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 35px;
+        padding: 5px;
+   }
+    .styles-span-footer {
+        margin-right: 10px;
+   }
+    .container-courses {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+   }
+    .style-tiempo {
+        display: flex;
+        align-items: center;
+   }
+}

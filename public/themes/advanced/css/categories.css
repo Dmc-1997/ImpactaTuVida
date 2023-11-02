@@ -1,0 +1,183 @@
+@media only screen and (max-width: 480px) {
+    .container-title-categories {
+        display: flex;
+        justify-content: center;
+   }
+    .title-style {
+        color: #7929e2;
+        font-size: 25px;
+        font-weight: 600;
+        margin-top: 5px;
+   }
+    a {
+        text-decoration: none;
+   }
+    .style-icon {
+        height: 100px;
+        width: 100px;
+        display: block;
+        box-shadow: 0px 6px 36px 14px #e6e6e8 0;
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover;
+   }
+    .container-elemet-icon {
+        display: flex;
+        font-size: 10px;
+        justify-content: space-between;
+   }
+    .container-wrap {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        font-weight: bold;
+        font-size: 18px;
+   }
+    
+    .style-inline {
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: center;
+        flex-direction: column;
+   }
+    .style-inline .container-wrap {
+        font-size: 15px;
+   }
+}
+@media only screen and (min-width: 481px) and (max-width: 1000px) {
+    .title-style {
+        color: #7929e2;
+        font-size: 20px;
+        font-weight: bold;
+        margin-top: 5px;
+   }
+    a {
+        text-decoration: none;
+   }
+    .style-icon {
+        height: 60px;
+        width: 60px;
+        display: block;
+        box-shadow: 0px 6px 36px 14px #e6e6e8 0;
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover;
+   }
+    .container-elemet-icon {
+        display: flex;
+        font-size: 10px;
+        justify-content: space-between;
+   }
+    .container-wrap {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        font-weight: bold;
+        font-size: 15px;
+   }
+    
+}
+@media only screen and (min-width: 1000px) {
+    .styles-background {
+        height: 230px;
+        border-radius: 10px;
+        background-color: #f9fafb;
+        box-shadow: 0px 1px 4px 3px #000;
+   }
+    .title-style {
+        color: #7929e2;
+        font-size: 13px;
+        font-weight: bold;
+        margin-top: 10px;
+   }
+    a {
+        text-decoration: none;
+   }
+    .container-elemet-icon {
+        display: flex;
+        justify-content: center;
+   }
+    .container-wrap {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        font-weight: 500;
+        font-size: 11px;
+   }
+    .fontSizeHome {
+        font-size: 18px;
+   }
+    .style-icon {
+        height: 40px;
+        width: 40px;
+        display: block;
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover;
+        border-radius: 8px;
+   }
+    .style-icon-home {
+        height: 80px;
+        width: 80px;
+        display: block;
+        box-shadow: 0px 1px 4px 3px #000;
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover;
+        border-radius: 20px;
+   }
+    
+    .style-inline {
+        display: flex;
+        flex-wrap: nowrap;
+        padding: 10px;
+        margin-top: 0 !important;
+        justify-content: center;
+   }
+    .style-inline .container-wrap {
+        font-size: 15px;
+   }
+    .style-inline .title-style {
+        display: none;
+   }
+    .style-inline .container-elemet-icon {
+        display: flex;
+        font-size: 15px;
+        justify-content: space-around;
+   }
+    .style-inline .style-icon {
+        height: 100px;
+        width: 100px;
+        display: block;
+        box-shadow: #7929e2;
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover;
+        gap: 15px;
+        border-radius: 15px;
+   }
+    .style-container-home {
+        display: flex;
+        box-shadow: #7929e2;
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover;
+        gap: 10px;
+        border-radius: 15px;
+        flex-direction: column;
+        align-items: center;
+   }
+    .style-inline-home {
+        display: flex;
+        flex-wrap: nowrap;
+        align-items: flex-end;
+        gap: 15px;
+        padding: 10px;
+        margin-top: 0 !important;
+        font-size: 20px;
+        justify-content: center;
+   }
+}

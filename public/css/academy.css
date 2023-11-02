@@ -1,0 +1,196 @@
+body {
+    background-color: #ffffff;
+    color: #000000;
+}
+
+a {
+    color: #2937f0;
+}
+
+.video-intro {
+    padding: 5rem 0px;
+}
+
+.video-container {
+    /* width is set as 100% here. any width can be specified as per requirement */
+    width: 100%;
+    padding-top: 56.25%;
+    height: 0px;
+    position: relative;
+}
+
+.video {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.line-divider {
+    border-bottom: 3px solid #2937f0;
+    width: 100%;
+}
+
+.btn-contact {
+    border-bottom: 1px solid #2937f0;
+    background-color: #2937f0;
+    color: #ffffff;
+}
+
+.border-content {
+    border: 1px solid #FFFFFF;
+}
+
+.border-content .card {
+    border: 1px solid #FFFFFF;
+}
+
+.chapter_menu {
+    background-color: #FFFFFF
+}
+
+.course_image {
+    background-color: #FFFFFF
+}
+
+.chapter_title {
+    background-color: #ffffff;
+    width: 100%;
+    padding: 10px 15px;
+    color: #000000;
+    text-align: left !important;
+    border: 1px solid #FFFFFF;
+}
+
+.chapter_title span {
+    font-size: 1.0rem;
+    font-weight: 500;
+}
+
+.btn-link:hover {
+    color: #2937f0 !important;
+}
+
+.btn-link {
+    padding: 0;
+    color: #2937f0 !important;
+    text-align: left !important;
+}
+
+.video_container_buttons {
+    background-color: #ffffff;
+    border: 1px solid #ffffff;
+    width: 100%;
+    padding: 10px 15px;
+}
+
+.dot {
+    height: 15px;
+    width: 15px;
+    background-color: transparent;
+    border: 1px solid #bbb;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.dot_active {
+    height: 15px;
+    width: 15px;
+    background-color: #00FF00;
+    border: 1px solid #bbb;
+    border-radius: 50%;
+    display: inline-block;
+}
+.text-item {
+    font-weight: 300;
+    padding-top: 0.5rem;
+    text-align: left;
+}
+
+#navbar-iframe {display:none !important;}
+
+.menu-chapters {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+}
+
+.fs-bar {
+    font-size: 2rem;
+}
+
+.progress {
+    height: 0.25rem;
+}
+
+.btn-download {
+    background-color: #2937f0 !important;
+    color: #ffffff;
+}
+
+.btn-previous {
+    background-color: #2937f0 !important;
+    color: #ffffff;
+}
+
+.btn-next {
+    background-color: #2937f0 !important;
+    color: #ffffff;
+}
+
+.btn-return {
+    background-color: #2937f0 !important;
+    color: #ffffff;
+}
+
+.question {
+    color: #2937f0 !important;
+}
+
+/* Tamaño del scroll */
+.review-box::-webkit-scrollbar {
+    width: 5px;
+    height: 25px;
+}
+
+/* Estilos barra (thumb) de scroll */
+.review-box::-webkit-scrollbar-thumb {
+    background: #d72323;
+    border-radius: 4px;
+}
+
+.review-box::-webkit-scrollbar-thumb:active {
+    background-color: #2937f0  !important;
+}
+
+.review-box::-webkit-scrollbar-thumb:hover {
+    background: #d72323;
+    box-shadow: 0 0 2px 1px #ffffff;
+}
+
+/* Estilos track de scroll */
+.review-box::-webkit-scrollbar-track {
+    background: #e1e1e1;
+    border-radius: 4px;
+}
+
+.review-box::-webkit-scrollbar-track:hover, 
+.review-box::-webkit-scrollbar-track:active {
+    background: #d4d4d4;
+}
+
+.menu-box {
+    max-height: 300px;
+    overflow-y: scroll;
+}
+
+.card-review {
+    background-color: #ffffff;
+    color: #000000;
+}
+
+.btn-review {
+    background-color: #2937f0 !important;
+    color: #ffffff;
+}
